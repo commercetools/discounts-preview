@@ -1,0 +1,12 @@
+{
+  "extends": "@commercetools-frontend/application-config/tsconfig-mc-app.json",
+  "compilerOptions": {
+    "typeRoots": ["@types", "@types-extensions", "node_modules/@types"],
+    // Allow tsc to resolve dependencies of `@types` packages in the way pnpm sets up the `node_modules`.
+    "preserveSymlinks": false,
+    // Only load the globals this app uses; avoids auto-including stub @types packages without typings.
+    "types": ["node", "jest"],
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
