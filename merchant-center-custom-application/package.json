@@ -1,7 +1,7 @@
 {
   "name": "@commercetools-labs/discounts-preview",
   "version": "1.0.0",
-  "description": "",
+  "description": "Merchant Center Custom Application that previews how discounts apply to a customer cart.",
   "private": true,
   "scripts": {
     "build": "mc-scripts build",
@@ -92,5 +92,6 @@
     "headers-polyfill": "3.2.5",
     "nwsapi": "2.2.7"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "license": "MIT"
 }

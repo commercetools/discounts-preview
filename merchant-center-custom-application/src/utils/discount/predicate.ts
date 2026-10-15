@@ -1,9 +1,3 @@
-/*
- * SPDX-License-Identifier: MIT
- * Copyright (c) 2026 commercetools GmbH and the commercetools-labs contributors
- * Freely available, AS IS and UNSUPPORTED. See LICENSE.
- */
-
 import { DiscountPredicateTargetTypes } from './constants';
 import { TNestedRule } from './types';
 import { parse as predicateParser } from './generated-parser/parser';

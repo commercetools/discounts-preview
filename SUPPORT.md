@@ -1,12 +1,23 @@
 # Support
 
-This repository is a **commercetools-labs** project: reference code, provided **AS IS and
-UNSUPPORTED**.
+Thanks for taking a look at this project. It is commercetools-labs reference code: shared in the
+hope that it is useful, and **unsupported**.
 
-- There is no SLA, no maintenance commitment and no guaranteed response to issues or pull requests.
-- It is not covered by commercetools support or any commercetools agreement.
-- Use it as a starting point. Copy it, fork it, change it, and test it before relying on it.
+In practice that means:
 
-Issues and pull requests are welcome but may not be answered. Questions about the commercetools
-platform itself belong in the [commercetools documentation](https://docs.commercetools.com) and
-through your normal commercetools support channel.
+- It is freely available under the MIT license ([LICENSE](LICENSE)) and is provided as-is, without
+  warranty.
+- It isn't covered by commercetools Support, your account team or any service-level agreement, so
+  we can't promise replies, fixes or new releases.
+- Issues and pull requests are welcome, and we'll take a look when we can.
+
+## If you need help
+
+- **Questions and bugs:** open a GitHub issue. Another reader or a maintainer may well have an
+  answer, though we can't commit to one.
+- **Using it in production:** feel free to fork it and adapt it to your needs. Once it's in
+  production it's yours, so review the code, test it against your project and keep your copy up
+  to date.
+- **commercetools products:** for questions about Composable Commerce, the Merchant Center or
+  Connect themselves, the [commercetools documentation](https://docs.commercetools.com), the
+  community and commercetools Support are the right place, as usual.

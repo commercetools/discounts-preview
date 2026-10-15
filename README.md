@@ -1,17 +1,19 @@
 # Discounts Preview
+> **commercetools-labs reference code.** Freely available under the MIT license, shared as-is and
+> not supported by commercetools. See [SUPPORT.md](SUPPORT.md) and [LICENSE](LICENSE).
 
-> **commercetools-labs reference code. Freely available under the MIT license, AS IS and
-> UNSUPPORTED:** commercetools offers no support, maintenance or warranty for it. See
-> [SUPPORT.md](SUPPORT.md) and [LICENSE](LICENSE).
+**See which discounts apply to a customer's cart, which are almost there, and which code is worth offering, right in the Merchant Center.**
 
-Business-user tooling for commercetools discounts: a Merchant Center Custom
-Application that shows a merchandiser how discounts apply to a customer's cart,
-deployed with commercetools Connect.
+Discounts are powerful, but it's hard to tell why one did or didn't apply to a particular cart.
+Merchandisers and support teams end up reading predicates or testing in a storefront to find out.
 
-Pick a customer and one of their active carts. The app shows which cart discounts
-already apply, which are close but not yet qualified, and which discount codes are
-worth giving the shopper. What each part does, with pointers to the code:
-[FEATURES.md](FEATURES.md).
+This is a Merchant Center Custom Application for the people who run promotions and help shoppers,
+deployed with commercetools Connect. Pick a customer and one of their active carts. The app shows
+which cart discounts already apply, which are close but not yet qualified (and what is missing),
+and which discount codes would save the shopper the most.
+
+When it works, "why didn't my discount apply?" becomes a quick look rather than an investigation.
+What each part does, with pointers to the code: [FEATURES.md](FEATURES.md).
 
 ## Layout
 
